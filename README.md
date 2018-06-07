@@ -32,7 +32,7 @@
 
 [第02课：设计篇——敏捷项目中用户故事分析与验收条件设计](http://qatools.cn/details/BJ35QMx0M.html)
 
-第03课：设计篇——验收测试设计及 UI 自动化测试
+[第03课：设计篇——验收测试设计及 UI 自动化测试](http://qatools.cn/details/HJmBxMLgX.html)
 
 第04课：设计篇——接口测试设计及自动化测试
 
@@ -59,5 +59,7 @@
 
 
 ### GiBook: [十招玩转敏捷测试](http://gitbook.cn/gitchat/column/5aebe3ea4eb5f845a0773ddb#catalog)
-### 微信公众号：
+###敏捷测试微信公众号：
 ![吐司QA](https://wx1.sinaimg.cn/large/d99b41d3ly1fr31yvz1qyj2076076mxm.jpg)
+###敏捷社区微信公众号：
+![时牧敏捷社区](http://qatools.cn/upload/images/ueditor/1004541505161007104.jpg)
