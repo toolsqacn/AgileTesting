@@ -1,0 +1,12 @@
+#surefire_0
+#Sun Jun 17 21:32:16 CST 2018
+webdriver.chrome.driver=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\googlechrome\\64bit\\chromedriver.exe
+webdriver=firefox
+webdriver.ie.driver=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\internetexplorer\\64bit\\IEDriverServer.exe
+user.dir=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse
+webdriver.gecko.driver=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\marionette\\64bit\\geckodriver.exe
+localRepository=C\:\\WorkSpace\\MavenRepo\\PioneerServiceRepo
+basedir=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse
+phantomjs.binary.path=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\phantomjs\\64bit\\phantomjs.exe
+webdriver.edge.driver=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\internetexplorer\\64bit\\IEDriverServer.exe
+webdriver.opera.driver=F\:\\GitBook\\TalentClass\\AgileTest\\TicketSalse\\selenium_standalone\\windows\\operachromium\\64bit\\operadriver.exe

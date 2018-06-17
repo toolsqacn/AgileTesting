@@ -1,0 +1,1 @@
+mvn test -X --settings=C:\WorkSpace\MavenRepo\settings.xml -f F:\GitBook\TalentClass\AgileTest\pom.xml

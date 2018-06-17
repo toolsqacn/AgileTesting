@@ -1,0 +1,440 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: zh-CN"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "固定金额取款",
+        "description": "",
+        "id": "使用atm固定金额方式取款;固定金额取款;;2",
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "duration": 116990209,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "我的账户中有余额\"1000.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000.00",
+                  "offset": 9
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我的账户中有余额_元(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "假如"
+          },
+          {
+            "result": {
+              "duration": 70716,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "我选择固定金额取款方式取出\"100.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100.00",
+                  "offset": 14
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我选择固定金额取款方式取出_元(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "当"
+          },
+          {
+            "result": {
+              "duration": 66766,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我应该收到现金\"100.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100.00",
+                  "offset": 8
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我应该收到现金_元(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "那么"
+          },
+          {
+            "result": {
+              "duration": 60049,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我账户的余额应该是\"900.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "900.00",
+                  "offset": 10
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我账户的余额应该是_元(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "而且"
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@withdraw"
+          },
+          {
+            "line": 7,
+            "name": "@fixedAmount"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "固定金额取款",
+        "description": "",
+        "id": "使用atm固定金额方式取款;固定金额取款;;3",
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "duration": 79013,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "我的账户中有余额\"500.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500.00",
+                  "offset": 9
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我的账户中有余额_元(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "假如"
+          },
+          {
+            "result": {
+              "duration": 69531,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "我选择固定金额取款方式取出\"500.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500.00",
+                  "offset": 14
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我选择固定金额取款方式取出_元(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "当"
+          },
+          {
+            "result": {
+              "duration": 61235,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我应该收到现金\"500.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500.00",
+                  "offset": 8
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我应该收到现金_元(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "那么"
+          },
+          {
+            "result": {
+              "duration": 73086,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我账户的余额应该是\"0.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 10
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我账户的余额应该是_元(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "而且"
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@withdraw"
+          },
+          {
+            "line": 7,
+            "name": "@fixedAmount"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "固定金额取款",
+        "description": "",
+        "id": "使用atm固定金额方式取款;固定金额取款;;2",
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "duration": 81778,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "我的账户中有余额\"1000.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000.00",
+                  "offset": 9
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我的账户中有余额_元(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "假如"
+          },
+          {
+            "result": {
+              "duration": 57284,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "我选择固定金额取款方式取出\"1100.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1100.00",
+                  "offset": 14
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我选择固定金额取款方式取出_元(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "当"
+          },
+          {
+            "result": {
+              "duration": 60050,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我应该收到现金\"0.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 8
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我应该收到现金_元(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "那么"
+          },
+          {
+            "result": {
+              "duration": 134716,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我账户的余额应该是\"1000.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1000.00",
+                  "offset": 10
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我账户的余额应该是_元(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "而且"
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@withdraw"
+          },
+          {
+            "line": 7,
+            "name": "@fixedAmount"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "固定金额取款",
+        "description": "",
+        "id": "使用atm固定金额方式取款;固定金额取款;;3",
+        "type": "scenario",
+        "keyword": "场景大纲",
+        "steps": [
+          {
+            "result": {
+              "duration": 88889,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "我的账户中有余额\"500.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500.00",
+                  "offset": 9
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我的账户中有余额_元(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "假如"
+          },
+          {
+            "result": {
+              "duration": 58865,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "我选择固定金额取款方式取出\"600.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600.00",
+                  "offset": 14
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我选择固定金额取款方式取出_元(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "当"
+          },
+          {
+            "result": {
+              "duration": 58470,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "我应该收到现金\"0.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.00",
+                  "offset": 8
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我应该收到现金_元(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "那么"
+          },
+          {
+            "result": {
+              "duration": 67951,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "我账户的余额应该是\"500.00\"元",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500.00",
+                  "offset": 10
+                }
+              ],
+              "location": "FixedAmountWithdrawStepdefs.我账户的余额应该是_元(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "而且"
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@withdraw"
+          },
+          {
+            "line": 7,
+            "name": "@fixedAmount"
+          }
+        ]
+      }
+    ],
+    "name": "使用ATM固定金额方式取款",
+    "description": "通常“取款”菜单包含了几个固定金额，使用这些固定金额取款可以避免从键盘输入提取金额，\n从而可以加速交易，提高取款的效率。",
+    "id": "使用atm固定金额方式取款",
+    "keyword": "功能",
+    "uri": "features/FixedAmountWithdraw.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@withdraw"
+      }
+    ]
+  }
+]

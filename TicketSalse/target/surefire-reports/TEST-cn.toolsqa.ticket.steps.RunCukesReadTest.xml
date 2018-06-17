@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cn.toolsqa.ticket.steps.RunCukesReadTest" time="7.719" tests="11" errors="0" skipped="10" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\GitBook\TalentClass\AgileTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\GitBook\TalentClass\AgileTest"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DUTIES~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;%ANT_HOME%\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WorkSpace\Training\Tools\RobotFramewok;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%MYSQLHOME%\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%MAVEN_HOME%\bin;C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files\TortoiseSVN\bin;C:\WorkSpace\Work\driver;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WorkSpace\Server\Redis-x64-3.2.100;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Users\dutiesheng\scoop\shims;C:\Program Files\Java\jdk1.8.0_111\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;%MYSQLHOME%\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;%MAVEN_HOME%\bin;%ANT_HOME%\bin;C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;C:\Python27;C:\Python27\Scripts;C:\Program Files\TortoiseSVN\bin;C:\WorkSpace\Work\driver;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files (x86;C:\Program Files\nodejs\node_global;C:\Use;."/>
+    <property name="maven.conf" value="C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\dutiesheng"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="dutiesheng"/>
+    <property name="java.class.path" value="C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -X --settings=C:\WorkSpace\MavenRepo\settings.xml -f F:\GitBook\TalentClass\AgileTest\pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\WorkSpace\MavenRepo\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="测试人员执行测试任务过程中发现缺陷提交缺陷单" classname="提交新缺陷" time="0.187"/>
+  <testcase name="开发人员填写分配给自己的任务的处理结果" classname="处理缺陷单" time="0">
+    <skipped message="The step &quot;开发人员有一张待自己解决的缺陷单&quot; is undefined"/>
+    <system-out><![CDATA[21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.300 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.301 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54159<->127.0.0.1:1671
+21:32:24.301 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 10800000
+21:32:24.301 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.301 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.301 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 17
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: localhost:1671
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 17[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: localhost:1671[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+21:32:24.302 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"implicit":2000}"
+21:32:24.306 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection: close[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length: 13[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "{"value": {}}"
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Connection: close
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type: application/json; charset=utf-8
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Cache-Control: no-cache
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length: 13
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: Close connection
+21:32:24.307 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.308 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.313 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.314 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.314 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.314 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 5][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.314 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.314 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54160<->127.0.0.1:1671
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: set socket timeout to 10800000
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Host: localhost:1671
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Connection: Keep-Alive
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1[\r][\n]"
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Host: localhost:1671[\r][\n]"
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.315 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Connection: close[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Content-Length: 13[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "[\r][\n]"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "{"value": {}}"
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << HTTP/1.1 200 OK
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Connection: close
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Content-Type: application/json; charset=utf-8
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Cache-Control: no-cache
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Content-Length: 13
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.321 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: Close connection
+21:32:24.322 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.322 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 5][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 6][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.326 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54161<->127.0.0.1:1671
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: set socket timeout to 10800000
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.327 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Cache-Control: no-cache
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Host: localhost:1671
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Connection: Keep-Alive
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Cache-Control: no-cache[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Host: localhost:1671[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.328 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "[\r][\n]"
+21:32:24.336 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Connection: close[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Length: 240[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "{"value":"iVBORw0KGgoAAAANSUhEUgAABjIAAAAKCAYAAAAeo8cyAAAAcElEQVR4nO3ZMQEAMAyAsPo33SrYPY5EAT+zAAAAAAAAUfM7AAAAAAAA4MXIAAAAAAAAsowMAAAAAAAgy8gAAAAAAACyjAwAAAAAACDLyAAAAAAAALKMDAAAAAAAIMvIAAAAAAAAsowMAAAAAAAg6wD9ROabJot96wAAAABJRU5ErkJggg=="}"
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << HTTP/1.1 200 OK
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Connection: close
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Type: application/json; charset=utf-8
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Cache-Control: no-cache
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Length: 240
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: Close connection
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.337 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 6][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="开发人员填写分配给自己的任务的处理结果" classname="处理缺陷单" time="0">
+    <skipped message="The step &quot;开发人员编辑缺陷单并提交:&quot; is undefined"/>
+  </testcase>
+  <testcase name="开发人员填写分配给自己的任务的处理结果" classname="处理缺陷单" time="0">
+    <skipped message="The step &quot;相关缺陷单的状态变为已解决&quot; is undefined"/>
+  </testcase>
+  <testcase name="测试人员查询已解决待自己关闭的缺陷单" classname="查询缺陷单" time="0">
+    <skipped message="The step &quot;测试人员有一张处于已解决待确认关闭的缺陷单&quot; is undefined"/>
+    <system-out><![CDATA[21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 7][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.356 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.357 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54162<->127.0.0.1:1671
+21:32:24.357 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: set socket timeout to 10800000
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Content-Length: 17
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Host: localhost:1671
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Connection: Keep-Alive
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Content-Length: 17[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Host: localhost:1671[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "[\r][\n]"
+21:32:24.358 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "{"implicit":2000}"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Connection: close[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Content-Length: 13[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "[\r][\n]"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "{"value": {}}"
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << HTTP/1.1 200 OK
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Connection: close
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Content-Type: application/json; charset=utf-8
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Cache-Control: no-cache
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Content-Length: 13
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.362 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: Close connection
+21:32:24.363 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.374 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 7][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 8][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.386 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.387 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54163<->127.0.0.1:1671
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: set socket timeout to 10800000
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Host: localhost:1671
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Connection: Keep-Alive
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+21:32:24.388 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1[\r][\n]"
+21:32:24.389 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Host: localhost:1671[\r][\n]"
+21:32:24.391 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.391 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.391 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.391 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Connection: close[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Content-Length: 13[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "[\r][\n]"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "{"value": {}}"
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << HTTP/1.1 200 OK
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Connection: close
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Content-Type: application/json; charset=utf-8
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Cache-Control: no-cache
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Content-Length: 13
+21:32:24.396 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.397 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: Close connection
+21:32:24.397 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.397 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 8][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 9][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.400 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54165<->127.0.0.1:1671
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-9: set socket timeout to 10800000
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> Cache-Control: no-cache
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> Host: localhost:1671
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> Connection: Keep-Alive
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 >> Accept-Encoding: gzip,deflate
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "Cache-Control: no-cache[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "Host: localhost:1671[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.401 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 >> "[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "Connection: close[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "Content-Length: 240[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "[\r][\n]"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-9 << "{"value":"iVBORw0KGgoAAAANSUhEUgAABjIAAAAKCAYAAAAeo8cyAAAAcElEQVR4nO3ZMQEAMAyAsPo33SrYPY5EAT+zAAAAAAAAUfM7AAAAAAAA4MXIAAAAAAAAsowMAAAAAAAgy8gAAAAAAACyjAwAAAAAACDLyAAAAAAAALKMDAAAAAAAIMvIAAAAAAAAsowMAAAAAAAg6wD9ROabJot96wAAAABJRU5ErkJggg=="}"
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << HTTP/1.1 200 OK
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << Connection: close
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << Content-Type: application/json; charset=utf-8
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << Cache-Control: no-cache
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << Content-Length: 240
+21:32:24.411 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-9 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.412 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-9: Close connection
+21:32:24.412 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.412 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 9][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="测试人员查询已解决待自己关闭的缺陷单" classname="查询缺陷单" time="0">
+    <skipped message="The step &quot;测试人员查询缺陷单查询条件如下：&quot; is undefined"/>
+  </testcase>
+  <testcase name="测试人员查询已解决待自己关闭的缺陷单" classname="查询缺陷单" time="0">
+    <skipped message="The step &quot;查询结果列表显示符合条件的缺陷单&quot; is undefined"/>
+  </testcase>
+  <testcase name="测试人员关闭指派给自己的缺陷单" classname="关闭缺陷" time="0">
+    <skipped message="The step &quot;测试人员有一张指派给自己待关闭的缺陷单&quot; is undefined"/>
+    <system-out><![CDATA[21:32:24.418 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.418 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.418 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.418 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 10][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.418 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54166<->127.0.0.1:1671
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-10: set socket timeout to 10800000
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.419 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> Content-Type: application/json; charset=utf-8
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> Content-Length: 17
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> Host: localhost:1671
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> Connection: Keep-Alive
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 >> Accept-Encoding: gzip,deflate
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "Content-Length: 17[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "Host: localhost:1671[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "[\r][\n]"
+21:32:24.420 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 >> "{"implicit":2000}"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "Connection: close[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "Content-Length: 13[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "[\r][\n]"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-10 << "{"value": {}}"
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << HTTP/1.1 200 OK
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << Connection: close
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << Content-Type: application/json; charset=utf-8
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << Cache-Control: no-cache
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << Content-Length: 13
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-10 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.428 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-10: Close connection
+21:32:24.429 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.429 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 10][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.433 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.433 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.433 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.433 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 11][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.433 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.434 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.434 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54167<->127.0.0.1:1671
+21:32:24.434 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-11: set socket timeout to 10800000
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 >> DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 >> Host: localhost:1671
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 >> Connection: Keep-Alive
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 >> Accept-Encoding: gzip,deflate
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1[\r][\n]"
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "Host: localhost:1671[\r][\n]"
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.435 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 >> "[\r][\n]"
+21:32:24.440 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.440 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Connection: close[\r][\n]"
+21:32:24.440 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.440 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.440 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Content-Length: 13[\r][\n]"
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "[\r][\n]"
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-11 << "{"value": {}}"
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << HTTP/1.1 200 OK
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Connection: close
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Content-Type: application/json; charset=utf-8
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Cache-Control: no-cache
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Content-Length: 13
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-11 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.441 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-11: Close connection
+21:32:24.442 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.442 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 11][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.445 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.445 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.445 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.445 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 12][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.445 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.446 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54168<->127.0.0.1:1671
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-12: set socket timeout to 10800000
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> Cache-Control: no-cache
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> Host: localhost:1671
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> Connection: Keep-Alive
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 >> Accept-Encoding: gzip,deflate
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "Cache-Control: no-cache[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "Host: localhost:1671[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.447 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 >> "[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "Connection: close[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "Content-Length: 240[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "[\r][\n]"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-12 << "{"value":"iVBORw0KGgoAAAANSUhEUgAABjIAAAAKCAYAAAAeo8cyAAAAcElEQVR4nO3ZMQEAMAyAsPo33SrYPY5EAT+zAAAAAAAAUfM7AAAAAAAA4MXIAAAAAAAAsowMAAAAAAAgy8gAAAAAAACyjAwAAAAAACDLyAAAAAAAALKMDAAAAAAAIMvIAAAAAAAAsowMAAAAAAAg6wD9ROabJot96wAAAABJRU5ErkJggg=="}"
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << HTTP/1.1 200 OK
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << Connection: close
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << Content-Type: application/json; charset=utf-8
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << Cache-Control: no-cache
+21:32:24.454 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << Content-Length: 240
+21:32:24.455 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-12 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.455 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-12: Close connection
+21:32:24.455 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.455 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 12][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="测试人员关闭指派给自己的缺陷单" classname="关闭缺陷" time="0">
+    <skipped message="The step &quot;测试人员关闭缺陷单&quot; is undefined"/>
+  </testcase>
+  <testcase name="测试人员关闭指派给自己的缺陷单" classname="关闭缺陷" time="0">
+    <skipped message="The step &quot;相关缺陷单的状态变为closed&quot; is undefined"/>
+  </testcase>
+  <testcase name="新会员注册后初始状态为铜牌会员" classname="新会员注册" time="0">
+    <skipped message="TODO: implement me"/>
+    <system-out><![CDATA[21:32:24.462 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.462 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.462 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.462 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 13][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.462 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.463 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.463 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54169<->127.0.0.1:1671
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-13: set socket timeout to 10800000
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> Content-Type: application/json; charset=utf-8
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> Content-Length: 17
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> Host: localhost:1671
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> Connection: Keep-Alive
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 >> Accept-Encoding: gzip,deflate
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "POST /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/timeouts HTTP/1.1[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "Content-Length: 17[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "Host: localhost:1671[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "[\r][\n]"
+21:32:24.464 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 >> "{"implicit":2000}"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "Connection: close[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "Content-Length: 13[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "[\r][\n]"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-13 << "{"value": {}}"
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << HTTP/1.1 200 OK
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << Connection: close
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << Content-Type: application/json; charset=utf-8
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << Cache-Control: no-cache
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << Content-Length: 13
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-13 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-13: Close connection
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.467 [Forwarding setTimeout on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 13][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 14][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.472 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.473 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54170<->127.0.0.1:1671
+21:32:24.474 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-14: set socket timeout to 10800000
+21:32:24.474 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.474 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.474 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 >> DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 >> Host: localhost:1671
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 >> Connection: Keep-Alive
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 >> Accept-Encoding: gzip,deflate
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "DELETE /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/cookie HTTP/1.1[\r][\n]"
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "Host: localhost:1671[\r][\n]"
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.475 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 >> "[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "Connection: close[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "Content-Length: 13[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "[\r][\n]"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-14 << "{"value": {}}"
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << HTTP/1.1 200 OK
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << Connection: close
+21:32:24.479 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << Content-Type: application/json; charset=utf-8
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << Cache-Control: no-cache
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << Content-Length: 13
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-14 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-14: Close connection
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.480 [Forwarding deleteAllCookies on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 14][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.487 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+21:32:24.487 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+21:32:24.487 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+21:32:24.487 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 15][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+21:32:24.487 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:1671
+21:32:24.488 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:1671
+21:32:24.488 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:54171<->127.0.0.1:1671
+21:32:24.488 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-15: set socket timeout to 10800000
+21:32:24.488 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> Cache-Control: no-cache
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> Host: localhost:1671
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> Connection: Keep-Alive
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 >> Accept-Encoding: gzip,deflate
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "GET /session/0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef/screenshot HTTP/1.1[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "Cache-Control: no-cache[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "Host: localhost:1671[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "Connection: Keep-Alive[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:32:24.489 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 >> "[\r][\n]"
+21:32:24.498 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "HTTP/1.1 200 OK[\r][\n]"
+21:32:24.498 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "Connection: close[\r][\n]"
+21:32:24.498 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+21:32:24.498 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "Cache-Control: no-cache[\r][\n]"
+21:32:24.498 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "Content-Length: 240[\r][\n]"
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "Date: Sun, 17 Jun 2018 13:32:24 GMT[\r][\n]"
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "[\r][\n]"
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.wire - http-outgoing-15 << "{"value":"iVBORw0KGgoAAAANSUhEUgAABjIAAAAKCAYAAAAeo8cyAAAAcElEQVR4nO3ZMQEAMAyAsPo33SrYPY5EAT+zAAAAAAAAUfM7AAAAAAAA4MXIAAAAAAAAsowMAAAAAAAgy8gAAAAAAACyjAwAAAAAACDLyAAAAAAAALKMDAAAAAAAIMvIAAAAAAAAsowMAAAAAAAg6wD9ROabJot96wAAAABJRU5ErkJggg=="}"
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << HTTP/1.1 200 OK
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << Connection: close
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << Content-Type: application/json; charset=utf-8
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << Cache-Control: no-cache
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << Content-Length: 240
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.headers - http-outgoing-15 << Date: Sun, 17 Jun 2018 13:32:24 GMT
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-15: Close connection
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+21:32:24.499 [Forwarding screenshot on session 0db13c8f-6cd7-4f3a-8788-3dcfc52b7cef to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 15][route: {}->http://localhost:1671][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+]]></system-out>
+  </testcase>
+</testsuite>
