@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Util{
-	public static String BASE_URL="http://192.168.88.132";
+	public static String BASE_URL="http://www.toolsqa.cn/demon";
 
 	public static boolean waitForElement(final By elementLocator,SharedDriver driver) {
 
