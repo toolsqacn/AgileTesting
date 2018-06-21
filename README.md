@@ -58,7 +58,7 @@
 
 
 
-### GiBook达人课: [十招玩转敏捷测试](http://gitbook.cn/gitchat/column/5aebe3ea4eb5f845a0773ddb#catalog)
+### GiBook达人课: [十招玩转敏捷测试(全部更新)](http://gitbook.cn/gitchat/column/5aebe3ea4eb5f845a0773ddb#catalog)
 
 ### 敏捷测试微信公众号：
 ![吐司QA](https://wx1.sinaimg.cn/large/d99b41d3ly1fr31yvz1qyj2076076mxm.jpg)
